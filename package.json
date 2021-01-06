@@ -4,7 +4,8 @@
   "description": "Javascript With Tensorflow",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "save": "node save.js",
+    "load": "TF_CPP_MIN_LOG_LEVEL=2 node load.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Mineru98/js-with-tf/issues"
   },
-  "homepage": "https://github.com/Mineru98/js-with-tf#readme"
+  "homepage": "https://github.com/Mineru98/js-with-tf#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.8.2",
+    "@tensorflow/tfjs-node": "^2.8.2"
+  }
 }
