@@ -1,0 +1,21 @@
+{
+  "name": "js-with-tf",
+  "version": "1.0.0",
+  "description": "Javascript With Tensorflow",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mineru98/js-with-tf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mineru98/js-with-tf/issues"
+  },
+  "homepage": "https://github.com/Mineru98/js-with-tf#readme"
+}
